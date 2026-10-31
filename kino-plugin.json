@@ -1,0 +1,87 @@
+{
+  "id": "theme-gran-tesoro",
+  "name": "Gran Tesoro",
+  "version": "1.0.0",
+  "apiVersion": 17,
+  "entry": "plugin.js",
+  "icon": "icon.png",
+  "description": "Paja dorada y rojo de chaleco sobre mar profundo, para zarpar tras el tesoro.",
+  "author": "kinotvapp",
+  "hosts": [],
+  "categories": [
+    "themes"
+  ],
+  "capabilities": [
+    "screen"
+  ],
+  "screen": {
+    "label": "Gran Tesoro",
+    "labelEn": "Great Treasure",
+    "opensFrom": [
+      "settings"
+    ],
+    "settingsButton": {
+      "label": "Ver presentación",
+      "labelEn": "See presentation"
+    }
+  },
+  "appThemes": [
+    {
+      "id": "gran-tesoro",
+      "name": {
+        "es": "Gran Tesoro",
+        "en": "Great Treasure"
+      },
+      "colors": {
+        "accent": "#FFC933",
+        "onAccent": "#1F1400",
+        "background": "#07162B",
+        "surface": "#102442",
+        "surfaceHigh": "#1B3358",
+        "railPanel": "#0B1C36"
+      },
+      "shape": {
+        "cardRadius": 16,
+        "channelRadius": 16,
+        "buttonRadius": 24,
+        "chipRadius": 20,
+        "dialogRadius": 20,
+        "inputRadius": 12
+      },
+      "typography": {
+        "scale": 1.0,
+        "titleScale": 1.1
+      },
+      "tv": {
+        "typography": {
+          "scale": 1.0
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#FFC933",
+            "#FF6B5E",
+            "#6FD3FF"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 32
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.3
+        }
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#07162B",
+          "#0F3A5C"
+        ],
+        "angle": 190
+      }
+    }
+  ]
+}
