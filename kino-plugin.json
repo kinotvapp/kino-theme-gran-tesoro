@@ -1,11 +1,11 @@
 {
   "id": "theme-gran-tesoro",
-  "name": "Gran Tesoro",
-  "version": "1.0.4",
+  "name": "Luffy",
+  "version": "1.1.0",
   "apiVersion": 18,
   "entry": "plugin.js",
   "icon": "icon.png",
-  "description": "Paja dorada y rojo de chaleco sobre mar profundo, para zarpar tras el tesoro.",
+  "description": "Sombrero de paja dorado y chaleco rojo sobre un mar sin fin, para zarpar a la aventura.",
   "author": "kinotvapp",
   "hosts": [],
   "categories": [
@@ -15,8 +15,8 @@
     "screen"
   ],
   "screen": {
-    "label": "Gran Tesoro",
-    "labelEn": "Great Treasure",
+    "label": "Luffy",
+    "labelEn": "Luffy",
     "opensFrom": [
       "settings"
     ],
@@ -29,16 +29,16 @@
     {
       "id": "gran-tesoro",
       "name": {
-        "es": "Gran Tesoro",
-        "en": "Great Treasure"
+        "es": "Luffy",
+        "en": "Luffy"
       },
       "colors": {
         "accent": "#FFC933",
         "onAccent": "#1F1400",
-        "background": "#07162B",
-        "surface": "#102442",
-        "surfaceHigh": "#1B3358",
-        "railPanel": "#0B1C36"
+        "background": "#06142B",
+        "surface": "#0F2747",
+        "surfaceHigh": "#1A3B66",
+        "railPanel": "#0A1D3A"
       },
       "shape": {
         "cardRadius": 16,
@@ -61,7 +61,7 @@
         "colors.accent": {
           "swatches": [
             "#FFC933",
-            "#FF6B5E",
+            "#E0312B",
             "#6FD3FF"
           ]
         },
@@ -77,14 +77,32 @@
       "background": {
         "type": "gradient",
         "colors": [
-          "#07162B",
-          "#0F3A5C"
+          "#06142B",
+          "#0B3A66"
         ],
         "angle": 190
       },
       "price": {
         "kinos": 10,
         "payTo": "8b97f0011f9d4594d269edc4afb3a0ee10e394abf54b0a40d90ca83f8f7d6a0e"
+      },
+      "logo": {
+        "decor": {
+          "paths": [
+            {
+              "d": "M -118 -78 A 118 20 0 1 1 118 -78 A 118 20 0 1 1 -118 -78 Z",
+              "fill": "#F2B01E"
+            },
+            {
+              "d": "M -66 -78 C -66 -150 66 -150 66 -78 Z",
+              "fill": "#FFC933"
+            },
+            {
+              "d": "M -66 -104 Q 0 -96 66 -104 L 66 -78 L -66 -78 Z",
+              "fill": "#E0312B"
+            }
+          ]
+        }
       }
     }
   ]
