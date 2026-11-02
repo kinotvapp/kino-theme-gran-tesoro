@@ -1,5 +1,5 @@
 // A theme's presentation, drawn with the screen kit in whichever theme is active.
-const THEME = {"id": "gran-tesoro", "es": "Gran Tesoro", "en": "Great Treasure", "hook": "El mar es grande y la aventura apenas zarpa.", "hookEn": "The sea is wide and the adventure just set sail.", "desc": "Paja dorada y rojo de chaleco sobre mar profundo, para zarpar tras el tesoro."};
+const THEME = {"id": "gran-tesoro", "es": "Luffy", "en": "Luffy", "hook": "El mar es grande y la aventura apenas zarpa.", "hookEn": "The sea is wide and the adventure just set sail.", "desc": "Sombrero de paja dorado y chaleco rojo sobre un mar sin fin, para zarpar a la aventura."};
 const t = (es, en) => ({ text: es, textEn: en });
 
 export async function screen({ activeTheme }) {
