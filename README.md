@@ -1,10 +1,10 @@
-<img src="icon.png" width="128" alt="Gran Tesoro">
+<img src="icon.png" width="128" alt="Luffy">
 
-# Gran Tesoro
+# Luffy
 
-Paja dorada y rojo de chaleco sobre mar profundo, para zarpar tras el tesoro.
+Sombrero de paja dorado y chaleco rojo sobre un mar sin fin, para zarpar a la aventura.
 
-Tema para [Kino](https://github.com/kinotvapp/kino-light). Cambia los colores, el fondo y las formas de toda la app, trae una pantalla de presentación y no se conecta a internet.
+Tema para [Kino](https://github.com/kinotvapp/kino-light). Cambia los colores, el fondo, las formas y el logo de toda la app, trae una pantalla de presentación y no se conecta a internet.
 
 En Kino, escribe `kinotvapp/kino-theme-gran-tesoro` en **Plugins ▸ Agregar un plugin**. Después ábrelo y pulsa **Activar**.
 
